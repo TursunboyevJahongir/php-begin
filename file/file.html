@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data" action="multi_upload.php">
+        <label> Fayl 1 <input type="file" name="fayllar[]"></label><br>
+        <label> Fayl 2 <input type="file" name="fayllar[]"></label><br>
+        <label> Fayl 3 <input type="file" name="fayllar[]"></label><br>
+        <label> Fayl 4 <input type="file" name="fayllar[]"></label><br>
+        <label> Fayl 5 <input type="file" name="fayllar[]"></label><br>
+        <label> Fayl 6 <input type="file" name="fayllar[]"></label><br>
+        <button type="  submit">Yuklash</button>
+    </form>
+</body>
+</html>

@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <title>File input</title>
@@ -9,7 +8,7 @@
             Rasmni ko'rsating*:
             <input required type="file" name="picture">
         </label>
-        <button type="submit">Yuklash</button>
+        <button type="submit" style="border-radius:20px 20px 20px 20px">Yuklash</button>
     </form>
 </body>
 </html>
