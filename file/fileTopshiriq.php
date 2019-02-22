@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $soni = $_POST['soni'];
+    $soni = isset($_POST['soni']) ? $_POST['soni'] : 0;
 ?>
 
 <head>
