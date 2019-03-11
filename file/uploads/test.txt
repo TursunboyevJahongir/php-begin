@@ -1,0 +1,4 @@
+test;3
+Jahongir;jjjjj;as;as;A
+Alisher;skj;b;lk;B
+MySQL nima?;a;lk;;A

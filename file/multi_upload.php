@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Usmon
- * Date: 21.02.2019
- * Time: 20:39
- */
 
 if (isset($_FILES)) {
     $soni = $_POST['TheNumberOf'];

@@ -1,0 +1,4 @@
+linux;3
+rm nima?;ochish;o`chirish;faylni izlash;B
+grep nima?;izlash;o`chirish;ochish;A
+ls komandasi;ro`yhatni chuiqarish;ochish;jakslj;A

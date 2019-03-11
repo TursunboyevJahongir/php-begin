@@ -4,8 +4,6 @@ if($_FILES['picture']) {
     $picture = $_FILES['picture'];
     $upload_dir = 'uploads';
     $fileName = uniqid() . '_' . $picture['name'];
-    //Validate type file
-    
     if($picture['type'] ==  'image/jpg' || $picture['type'] == 'image/jpeg') {
         move_uploaded_file($picture['tmp_name'], $upload_dir.DIRECTORY_SEPARATOR.$fileName);
     }
