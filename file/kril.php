@@ -42,7 +42,7 @@ if ($_POST['til']) {
 </head>
 <body>
     <form action="" method='POST'>
-
+    Salom
     <textarea class="form-control" name='text' rows="10"></textarea>
     <input type="file" class="col-md-6" name='file' sryle="border:1px solid">
      <div class="">
